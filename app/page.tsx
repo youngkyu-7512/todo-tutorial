@@ -4,7 +4,7 @@ import { AuroraText } from "@/components/ui/aurora-text"
 export default function Page() {
   const title = (
     <h1 className="text-3xl font-bold tracking-tight">
-      ✨ <AuroraText>Todo</AuroraText>
+      🔥 <AuroraText>갓생 투두</AuroraText> ✨
     </h1>
   )
 
@@ -14,7 +14,7 @@ export default function Page() {
         <div>
           {title}
           <p className="font-mono text-xs text-muted-foreground">
-            (Press <kbd>d</kbd> to toggle dark mode)
+            (<kbd>d</kbd> 누르면 다크모드 ON 🌙)
           </p>
         </div>
         <TodoList />
